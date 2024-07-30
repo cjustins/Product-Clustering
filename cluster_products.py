@@ -12,7 +12,7 @@ import streamlit as st
 import pickle
 
 # Define the path to the images
-path = r"C:\Users\Cousins\Desktop\Product_Clustering\AmazonProductImages"
+path = r"./AmazonProductImages"
 os.chdir(path)
 
 # Function to load, preprocess, and normalize the image
