@@ -12,6 +12,7 @@ import streamlit as st
 import pickle
 
 # Define the path to the images
+st.write(f"Current Working Directory: {os.getcwd()}")
 path = r"./AmazonProductImages"
 os.chdir(path)
 
