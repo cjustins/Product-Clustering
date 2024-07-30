@@ -53,7 +53,7 @@ filenames = np.array(list(data.keys()))
 features = np.array(list(data.values()))
 
 # Perform PCA
-pca = PCA(n_components=100, random_state=22)
+pca = PCA(n_components=78, random_state=22)
 pca.fit(features)
 features_pca = pca.transform(features)
 
